@@ -1,0 +1,38 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: #e8e8e8;
+    font-family: 'Andada Pro', serif;
+}
+.container {
+    border: 2px #9f9f9f solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(216, 232, 239, 0.43);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-name {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+.card-email {
+    color: grey;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.remove-btn {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}

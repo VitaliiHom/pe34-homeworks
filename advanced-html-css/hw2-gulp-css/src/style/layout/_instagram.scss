@@ -1,0 +1,74 @@
+@import "src/style/abstracts/variables";
+@import "src/style/abstracts/mixins";
+
+.instagram {
+  padding-bottom: 40px;
+}
+
+.instagram__info {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: $main-text-color;
+  text-transform: uppercase;
+  @include flex($justify: space-between)
+}
+
+.instagram__link {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: $main-text-color;
+  display: none;
+}
+
+.img-hidden {
+  display: none;
+}
+
+.img-large {
+  display: none;
+}
+.instagram__images {
+  @include flex($justify: flex-start);
+  margin-top: 13px;
+}
+
+@media (min-width: 768px) {
+  .instagram {
+    background-color: #F5F5F5;
+    padding: 47px 0 50px;
+  }
+  .instagram__title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .instagram__link {
+    display: block;
+  }
+  .instagram__images-item {
+    height: 240px;
+    width: 240px;
+  }
+  .img-hidden {
+    display: block;
+  }
+  .instagram__images {
+    @include flex($justify: space-around);
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-large {
+    display: block;
+  }
+  .instagram__images-item {
+    height: 285px;
+    width: 285px;
+  }
+  .instagram__images {
+    margin-top: 24px;
+  }
+}

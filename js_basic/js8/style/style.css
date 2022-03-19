@@ -1,0 +1,23 @@
+input {
+    margin: 20px 20px;
+}
+
+.input {
+    border: 2px solid grey;
+}
+
+.focus {
+border-color: green;
+}
+
+
+
+body {
+    display: block;
+    background: aliceblue;
+}
+
+.form {
+    display: block;
+
+}

@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Фильтр масляный",
+      "price": 183,
+      "image": "https://leoparts.com.ua/imgs/mann-filter/w71930_4.jpg",
+      "article": 86769,
+      "color": "black",
+      "isFavorite": false
+    },{
+      "id": 2,
+      "name": "Фильтр топливный",
+      "price": 275,
+      "image": "https://leoparts.com.ua/imgs/mann-filter/wk7301.jpg",
+      "article": 9037,
+      "color": "white",
+      "isFavorite": false
+    },{
+      "id": 3,
+      "name": "Ремень грм",
+      "price": 447,
+      "image": "https://leoparts.com.ua/imgs/contitech/ct908.jpg",
+      "article": 99861,
+      "color": "black",
+      "isFavorite": false
+    },{
+      "id": 4,
+      "name": "Натяжной ролик",
+      "price": 400,
+      "image": "https://leoparts.com.ua/imgs/skf/vkm11113.jpg",
+      "article": 23420,
+      "color": "silver",
+      "isFavorite": false
+    },{
+      "id": 5,
+      "name": "Водяной насос",
+      "price": 924,
+      "image": "https://leoparts.com.ua/imgs/skf/vkpc81220.jpg",
+      "article": 96519,
+      "color": "blue",
+      "isFavorite": false
+    },{
+      "id": 6,
+      "name": "Подшипник",
+      "price": 1297,
+      "image": "https://leoparts.com.ua/imgs/snr/r15454.jpg",
+      "article": 54526,
+      "color": "silver",
+      "isFavorite": false
+    },{
+      "id": 7,
+      "name": "Тормозной диск",
+      "price": 1287,
+      "image": "https://leoparts.com.ua/imgs/ferodo/ddf1305.jpg",
+      "article": 91652,
+      "color": "white",
+      "isFavorite": false
+    },{
+      "id": 8,
+      "name": "Тормозные колодки",
+      "price": 995,
+      "image": "https://leoparts.com.ua/imgs/remsa/121921.jpg",
+      "article": 313129,
+      "color": "black",
+      "isFavorite": false
+    },{
+      "id": 9,
+      "name": "Масло моторное",
+      "price": 867,
+      "image": "https://leoparts.com.ua/imgs/snr/r15454.jpg",
+      "article": 250513,
+      "color": "white",
+      "isFavorite": false
+    },{
+      "id": 10,
+      "name": "Свеча зажигания",
+      "price": 79,
+      "image": "https://leoparts.com.ua/imgs/denso/k20tt.jpg",
+      "article": 119869,
+      "color": "red",
+      "isFavorite": false
+    }
+
+  ]
+}
+
+
+

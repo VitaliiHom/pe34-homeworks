@@ -1,0 +1,86 @@
+@import "src/style/abstracts/variables";
+@import "src/style/abstracts/mixins";
+
+.posts {
+  padding: 38px 0 78px;
+    .posts__box {
+      @include flex($direction: column, $align: flex-start )
+    }
+}
+
+.posts__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: $main-text-color;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.posts__item {
+  margin-top: 32px;
+}
+
+.posts__hidden {
+  display: none;
+}
+
+.box__title {
+  color: $main-text-color;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.box__info {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 20px;
+  color: $second-text-color;
+}
+
+.box__text {
+  display: none;
+  font-size: 14px;
+  line-height: 26px;
+  color: $second-text-color;
+}
+
+@media (min-width: 768px) {
+  .posts {
+    padding: 56px 0 60px;
+  }
+  .posts__title {
+    font-size: 16px;
+  }
+  .box__text {
+    display: block;
+  }
+  .posts__item {
+    @include flex($justify: flex-start);
+  }
+  .posts__box {
+    width: 400px;
+    margin-left: 20px;
+  }
+  .posts__hidden {
+    @include flex($justify: flex-start);
+  }
+  .box__title{
+    font-size: 16px;
+  }
+  .box__info {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .posts {
+    padding: 66px 0 69px;
+  }
+  .posts__item-box {
+    @include flex($justify: flex-start);
+    flex-wrap: wrap;
+    height: 400px;
+  }
+}

@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.hero {
+    margin: 63px 0 48px;
+}
+
+/*.logo {*/
+/*    margin-top: 63px;*/
+/*}*/
+
+.logo {
+    font-size: 80px;
+    line-height: 94px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo_link {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.logo span {
+    color: black;
+    font-size: 80px;
+}
+
+.top-menu {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #35444F;
+    font-size: 24px;
+
+}
+
+.top-menu-item {
+    padding: 26px 30px 19px;
+    list-style: none;
+    border-left: 1px solid #ffffff;
+}
+
+.top-menu_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-menu-item:hover {
+    background: #222F3A;
+}
+
+.main_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    height: 100%;
+}
+
+.widget-list {
+    margin: 0;
+    padding: 0;
+    width: 344px;
+    border: 1px solid #000000;
+    font-size: 27px;
+}
+
+.widget_item {
+    color: #485863;
+    text-align: -webkit-left;
+    list-style-type: none;
+}
+.widget_item_link {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: #485863;
+    transition: all .5s linear;
+}
+
+.widget-list li a:hover {
+    color: red;
+    padding-left: 50px;
+    background: #14B9D5;
+}
+
+.content {
+    width: 885px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.image-box {
+    height: 529px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    border: 1px solid #000000;
+}
+
+.image-box img {
+    transition: all 1s linear;
+}
+.image-box img:hover {
+    transform: scale(1.2);
+}
+
+.text1 {
+    margin-top: 37px;
+}
+.text2 {
+
+    margin-top: 18px;
+    margin-bottom: 54px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 28px;
+    background-color: #DBDBDB;
+    font-size: 28px;
+    line-height: 28px;
+}
+.lower_list li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.lower_list li a {
+    color: black;
+    text-decoration: none;
+}
+.lower_list li a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+
+.footer_copyright {
+    font-size: 24px;
+    line-height: 24px;
+    padding-right: 15px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "Vitaliy Khomenko FE30",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/a65652005/html_css_basic_hw/-/tree/master/advanced-html-css/hw1-npm"
+  },
+  "author": "Vitaliy Khomenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/a65652005/html_css_basic_hw/issues"
+  },
+  "homepage": "https://gitlab.com/a65652005/html_css_basic_hw#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "eslint": "^7.32.0",
+    "gulp": "^4.0.2"
+  }
+}

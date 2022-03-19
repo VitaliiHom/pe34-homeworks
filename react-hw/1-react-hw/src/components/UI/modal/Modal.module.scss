@@ -1,0 +1,45 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #d9d8d8;
+    text-align: center;
+}
+
+.ModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 250px;
+}
+
+.Modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    span{
+        font-size: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
+
+.ModalBox {
+    height: 200px;
+    padding: 20px;
+}
+
+.text {
+    max-width: 400px;
+}
